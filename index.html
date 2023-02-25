@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TejaBhai -  Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cfa193dc25.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--<img src="images/logo.jpeg" class="logo">-->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skill">Skills</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="head-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Tejas </span>Bhandvalkar<br> from Navi Mumbai</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------about------------------------------->
+    <div id="about">
+        <div class="cotainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-text">Tie loathing adventurer and thrill seeker, who believes in turning ideas into reality. Otherwise I hone in my Android Development Skills. Currently a BE Pre-final year Student at Dr.D.Y.Patil Institute of Techology, Pimpri.</p>
+                    <br>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('Eduction')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing interactive Web  App interfaces</li>
+                            <li><span>Frontend Development</span><br>Using Bootstrap, React.js, CSS
+                            </li>
+                            <li><span>Backend Development</span><br>Using Node.js, Express.js, nodemon</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Portfolio Website</span><br>Full Stack Website</li>
+                            <li><span>Calculator App</span><br>Full working Web based Calculator App</li>
+                            <li><span>To-Do List</span><br>Full Working Notes App</li>
+                            <li><span>My Dukaan</span><br>Inventory Management System</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Eduction">
+                        <ul>
+                            <li><span>2020-current</span><br> Computer Engeneering Degree At Dr D. Y. Patil Institute of Technology Pimpri,Pune</li>
+                            <li><span>2018</span><br>Passed SSC Exam with 92.6%</li>
+                            <li><span>2020</span><br>Passed HSC Exam with 72.67%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------Skills------------->
+    <div id="Skill">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="Skills-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Prominent in my Frontend skills, I am also good at JavaScript for simple web applications.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I am prominent in my web based UI skills where i just like to display my creativity out.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Better at Android Studio, i particularly use XML for design & Java for all the logic behind the working of a Android application</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+
+            </div>
+            <div class="Skills-list">
+
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>Five star coder at hackerrank. Have good knowledge about Java for Software Development.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>C/C++</h2>
+                    <p>Five star coder at Hackerrank. Completed my DSA in C and C++ progaming.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-envira"></i>
+                    <h2>MongoDB and SQL</h2>
+                    <p>Prominent in SQL and have complete knowledge about MySQL,PL/SQL,Oracle and MongoDB. </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------Projects------------>
+    <div id="Project">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/work-1.jpeg">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>It is a completely functional Web based Calculator App, where I have used javascript for performing the various operations and Bootstrap for Designimg.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>To-Do List Web application</h3>
+                        <p>A very user interactive Notes taking app which performs various functions for easy notes taking. Main aim was on Javascript Logic </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>My Dukaan</h3>
+                        <p>A Full stack Web application which is a Inventory Management System particularly made for small shops for keeping record of goods and accounting for the same</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------contact----------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>teja.bhandvalkar@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>8104732902</p>
+                    <div class="social-icons">
+                        <a class="linkdin"
+                            href="https://www.linkedin.com/in/tejas-bhandvalkar-57579b208/">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                        <a class="hackerrank" href="https://www.hackerrank.com/teja_bhandvalkar"><i
+                                class="fa-brands fa-hackerrank"></i></a>
+                        <a class="git" href="https://github.com/TejaBhai1510"><i class="fa-brands fa-github"></i></a>
+                        <a class="insta" href="https://www.instagram.com/teja.bhai1510/"><i
+                                class="fa-brands fa-instagram"></i></a>
+
+
+                    </div>
+                    <a href="images/TEJAS_RESUME.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+
+                <form class="contact-right">
+                    <input type="text" id="Name" placeholder="Your Name" required>
+                    <input type="email" id="Email" placeholder="Your email" required>
+                    <textarea rows="4" id="Message" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" onclick="sendmail()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ TejaBhai. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("3XdkNepmJ_khcfd3_");
+        })();
+    </script>
+
+</body>
+
+</html>
