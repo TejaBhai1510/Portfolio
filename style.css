@@ -48,7 +48,7 @@ nav ul li a{
     font-size: 18px;
     position: relative;
 }
-nav ul li a::after{           /*hover on menu*/
+nav ul li a::after{         
     content: '';
     width: 0%;
     height: 3px;
@@ -88,13 +88,15 @@ nav ul li a:hover::after{
     
 }
 .about-col-1 img{
-    margin-left: 30px;
+    margin-left: 70px;
     padding-left: 0px;
     width: 100%;
     border-radius: 15px;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 58%;
+    padding-right: 60px;
+    padding-top: 10px;
 }
 .sub-title{
     font-size: 80px;
