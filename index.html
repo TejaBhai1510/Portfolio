@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="style.css">
     <!-- <script src="script.js"></script> -->
     <script src="https://kit.fontawesome.com/cfa193dc25.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init({
+            publicKey: '50SE6J7YWAbhrJH-k',
+        });
+        emailjs.sendForm('contact_service', 'contact_form', this);
     </script>
 </head>
 
@@ -203,12 +208,6 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"> </script>
     <script>
-        emailjs.init({
-            publicKey: '50SE6J7YWAbhrJH-k',
-        });
-
-        emailjs.sendForm('contact_service', 'contact_form', this);
-
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
         function opentab(tabname) {
